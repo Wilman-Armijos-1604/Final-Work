@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Contabilidad</string>
+    <string name="title_activity_inicio_sesion">InicioSesion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clave_olvidada"><u>¿Ha olvidado la contraseña? Aquí...</u></string>
+    <string name="crear_cuenta"><u>Crea aquí...</u></string>
+
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="391dp"
+    android:layout_height="42dp"
+    android:layout_gravity="bottom"
+    >
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/darkBlueML"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@color/yellowML"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_menuInicioSesion"
+            android:layout_width="98dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_op1"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/ic_baseline_home_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txt_MenuPaginaPrincipal"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="INICIO"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlueML"
+                android:textSize="7sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_op1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_menuPeriodoActual"
+            android:layout_width="98dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_op2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/ic_baseline_periodo_contable_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txt_menuPeriodoActual"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Periodo Actual"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlueML"
+                android:textSize="7sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_op2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_menuInformeContable"
+            android:layout_width="98dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_op3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/ic_informe_contable"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txt_menuInformeContable"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Informe Contable"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlueML"
+                android:textSize="7sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_op3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/btn_menuSalir"
+            android:layout_width="98dp"
+            android:layout_height="match_parent">s
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Salir"
+                android:textAlignment="center"
+                android:textColor="@color/darkBlueML"
+                android:textSize="7sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_op4" />
+
+            <ImageView
+                android:id="@+id/img_op4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/ic_baseline_salir_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</RelativeLayout>

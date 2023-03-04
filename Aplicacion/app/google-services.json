@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962967566492",
+    "project_id": "contabilidad-ml",
+    "storage_bucket": "contabilidad-ml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962967566492:android:714c9f816d4202ac0d5559",
+        "android_client_info": {
+          "package_name": "com.ticml.contabilidad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962967566492-d8veiij6113u9vvvrjt6g2ffnltqhql1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUVPVieVE7yYLM9NL04MB_-hbNuYLd4Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962967566492-d8veiij6113u9vvvrjt6g2ffnltqhql1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
